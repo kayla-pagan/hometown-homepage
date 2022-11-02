@@ -1,0 +1,176 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    height: 100px
+}
+
+h1, h2 {
+    text-shadow: 0 0 3px #000000;
+}
+
+#activities-title {
+    font-size: 35px;
+    margin: 0;
+}
+
+#hero-section {
+    background-image: url("images/orlando.jpeg");
+    background-size: cover;
+    width: auto;
+    height: 400px;
+    padding: 10px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#visit {
+    
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#orlando {
+   font-family: 'Mitr', sans-serif;
+    font-weight: medium;
+}
+
+#hero-title {
+    padding: 7px 25px 0px 25px;
+    border-radius: 10px;
+    margin: 5px auto;
+    background: #FB501299;
+    border-radius: 40px;
+    color: #F0F7EE;
+}
+
+#hero-caption {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 5px 50px 5px 50px;
+    background-color: #00000099;
+    border-radius: 8px;
+    color: #F0F7EE;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;  
+    width: 412px;
+    height: 90px;
+    left: calc(50% - 412px/2);
+    top: calc(50% - 52px/2 + 26.5px);
+    
+}
+
+#activities-section {
+     background-color: #FB501210;
+     color: #282B28;
+     height: 400px;
+     width: auto;
+     padding: 40px 20px;
+}
+
+#activities-img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 50px;
+}
+
+#activities-title {
+    font-size: 28px;
+}
+
+.activities-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px 0;
+}
+
+.activities-img:hover {
+    opacity: 50%;
+}
+
+p {
+    font-weight: lighter;
+}
+
+#theme-park {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.img-caption:hover {
+    background-color: #FB501230;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+#shopping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.img-caption, #activities-title {
+    font-weight: bolder;
+    font-family: 'Mitr', sans-serif;
+}
+
+#guide-card {
+    width: 400px;
+    height: 190px;
+    background-color: #FB501240;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-bottom: 6px solid #FB501280;
+    border-radius: 8px;
+}
+
+#guide-headshot {
+    width: 185px;
+    height: 188px; 
+    border-radius: 90px;
+    padding: 0;
+    margin: 0;
+    opacity: 90%
+}
+
+h3, #guide-p, h4 {
+    padding: 0 30px 0 30px;
+}    
+
+
